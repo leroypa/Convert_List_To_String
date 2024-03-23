@@ -7,7 +7,7 @@ import convert_list_string
 
 
 def test_convert_list_string():
-    assert convert_list_string.convert_list_string(["a", "b", "c"]) == "a b c d"
+    assert convert_list_string.convert_list_string(["a", "b", "c"]) == "a b c"
 
 
 if __name__ == "__main__":
