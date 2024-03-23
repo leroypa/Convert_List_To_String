@@ -1,0 +1,19 @@
+# Path: test_convert_list_string
+
+""" This function tests the function convert_list_string from convert_list_string.py. 
+    It checks if the function returns the correct output for a given input."""
+
+import convert_list_string
+
+
+def test_convert_list_string():
+    assert convert_list_string.convert_list_string(["a", "b", "c"]) == "a b c d"
+
+
+if __name__ == "__main__":
+    assert True
+    try:
+        test_convert_list_string()
+        print("convert_list_string.py is correct.")
+    except AssertionError:
+        print("convert_list_string.py is incorrect.")
