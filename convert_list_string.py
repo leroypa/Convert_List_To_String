@@ -7,5 +7,9 @@ the list separated by a one space."""
 
 
 def convert_list_string(list: list):
-    conv_string = " ,".join(list)
+    conv_string = ", ".join(list)
     return conv_string
+
+
+# print is for testing purposes
+# print(convert_list_string(["a", "b", "c"]))
